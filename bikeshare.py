@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+# Global dictionary in order to keep the name of the files
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
